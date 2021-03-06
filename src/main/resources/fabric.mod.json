@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sandbox",
+  "version": "${version}",
+  "name": "Sandbox",
+  "license": "CC0-1.0",
+  "icon": "assets/sandbox/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sandbox.Sandbox"
+    ]
+  },
+  "mixins": [
+    "sandbox.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
